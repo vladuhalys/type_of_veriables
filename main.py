@@ -1,3 +1,6 @@
-number = int(input('number->'))
-percent = int(input('percent->'))
-print('Res =', int(number * (percent/100)))
+from func import *
+
+try:
+    print_rec(3, 4)
+except Exception as e:
+    print(e)
